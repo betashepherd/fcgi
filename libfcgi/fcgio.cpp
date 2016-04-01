@@ -22,6 +22,11 @@
 #define DLLAPI  __declspec(dllexport)
 #endif
 
+//include stido
+#ifndef _STDIO_H_
+#include <stdio.h>
+#endif
+
 #include <limits.h>
 #include "fcgio.h"
 
